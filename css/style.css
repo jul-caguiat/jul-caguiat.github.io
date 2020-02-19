@@ -1,0 +1,129 @@
+/* CMSC 207 Assignment1: css file (Julfri Emmil Caguiat) */
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: gray;
+    
+    /* browser compatibility */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+/* centers the header */
+h1{                                     
+    text-align: center;
+    margin: 50px;
+}
+
+/* centers the calculator app */
+#container{                             
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+/* display properties */
+#display{                                                    
+    height: 80px;
+    max-width: 376px;
+    color: white;
+    text-align: right;    
+    font-size: 48px;
+    background-color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px;
+    border-radius: 7px 7px 0 0;
+}
+
+/* row class properties */
+.row{                                   
+    display: table;
+    table-layout: fixed;
+    width: 400px;
+}
+
+/* column class property */
+.column{                                
+    display: table-cell;
+}
+
+/* button class properties */
+.button{                                   
+    background-color: lightgray;
+    color: black;
+    width: 25px;
+    height: 45px;
+    border: 2px solid black;    
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 3px;
+}
+
+/* highlights button class on pointer */
+.button:hover{                          
+    background-color: whitesmoke;
+}
+
+/* oper-button class properties */
+.oper-button{                           
+    background-color: rgb(77, 77, 66);
+    color: white;}
+
+ /* oper-button class highlighter */
+.oper-button:hover{                     
+    background-color:  rgb(107, 107, 99);
+}
+
+/* AC button properties */
+#all-clear{                             
+    width: 54.8px;
+    background-color: rgb(77, 77, 66);
+    color: white;
+}
+
+/* AC button highlighter */
+#all-clear:hover{                       
+    background-color: rgb(107, 107, 99);    
+}
+
+/* C button properties */
+#clear{                                 
+    background-color: rgb(77, 77, 66);
+    color: white;  
+}
+
+/* C button highlighter */
+#clear:hover{                           
+    background-color: rgb(107, 107, 99);    
+}
+
+/* equals button properties */
+#equals{                                
+    background-color: red;
+    color: black;
+    border-radius: 0 0 7px 0;
+}
+
+/* equals button highlighter */
+#equals:hover{                          
+    background-color: rgb(253, 80, 80);    
+}
+
+/* zed button properties */
+#zed{                                   
+    width: 54.8px;
+    border-radius: 0 0 0 7px;
+}
+
+

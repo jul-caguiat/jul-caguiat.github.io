@@ -1,0 +1,69 @@
+<!-- CMSC 207 Assignment1: html file (Julfri Emmil Caguiat) -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF_8">
+
+         <!-- link to css file-->
+        <link href="css/style.css" rel="stylesheet">   
+
+        <title>CMSC 207 Assignment 1</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>CMSC 207 Assignment 1: Simple Calculator</h1>  
+        </header>
+
+        <!-- calculator app container -->
+        <div id="container"> 
+            
+            <!-- display screen -->
+            <div id="display">0</div>                                 
+ 
+            <!-- first row buttons (AC, C, /) -->
+            <div class="row">             
+                <div class="button column" id="all-clear">AC</div>  
+                <div class="button column" id="clear">C</div> 
+                <div class="button oper-button column">/</div>  
+            </div>
+
+             <!-- second row buttons (7, 8, 9, x) -->
+            <div class="row">                          
+                <div class="button num-button column">7</div>
+                <div class="button num-button column">8</div>
+                <div class="button num-button column">9</div> 
+                <div class="button oper-button column">x</div>                
+            </div>
+
+            <!-- third row buttons (4, 5, 6, -) -->
+            <div class="row">                           
+                <div class="button num-button column">4</div>
+                <div class="button num-button column">5</div>
+                <div class="button num-button column">6</div> 
+                <div class="button oper-button column">-</div>                  
+            </div>
+
+             <!-- fourth row buttons (7, 8, 9, x) -->
+            <div class="row">                          
+                <div class="button num-button column">1</div>
+                <div class="button num-button column">2</div>
+                <div class="button num-button column">3</div>  
+                <div class="button oper-button column">+</div>               
+            </div>
+
+             <!-- fifth row buttons (0, . , =) -->
+            <div class="row">                          
+                <div class="button num-button column" id="zed">0</div>                
+                <div class="button column" id="decimal">.</div>               
+                <div class="button oper-button column" id="equals">=</div>                 
+            </div>
+        </div> 
+
+        <!-- link to js file-->
+        <script type="text/javascript" src="js/script.js"></script>   
+    </body>
+
+</html>
