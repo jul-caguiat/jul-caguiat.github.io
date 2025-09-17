@@ -16,24 +16,20 @@ body{
                                   supported by Chrome, Opera and Firefox */
 }
 
-/* centers the header */
-h1{                                     
+h1{                                     /* centers the header */
     text-align: center;
     margin: 50px;
 }
 
-/* centers the calculator app */
-#container{                             
+#container{                             /* centers the calculator app */
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);   
 }
 
-/* display properties */
-#display{                                                    
-    height: 80px;
-    max-width: 376px;
+#display{                               /* display properties */                     
+    height: 80;
     color: white;
     text-align: right;    
     font-size: 48px;
@@ -44,20 +40,17 @@ h1{
     border-radius: 7px 7px 0 0;
 }
 
-/* row class properties */
-.row{                                   
+.row{                                   /* row class properties */
     display: table;
     table-layout: fixed;
     width: 400px;
 }
 
-/* column class property */
-.column{                                
+.column{                                /* column class property */
     display: table-cell;
 }
 
-/* button class properties */
-.button{                                   
+.button{                                /* button class properties */   
     background-color: lightgray;
     color: black;
     width: 25px;
@@ -70,58 +63,48 @@ h1{
     padding-top: 3px;
 }
 
-/* highlights button class on pointer */
-.button:hover{                          
+.button:hover{                          /* highlights button class on pointer */
     background-color: whitesmoke;
 }
-
-/* oper-button class properties */
-.oper-button{                           
+ 
+.oper-button{                           /* oper-button class properties */
     background-color: rgb(77, 77, 66);
     color: white;}
 
- /* oper-button class highlighter */
-.oper-button:hover{                     
+.oper-button:hover{                     /* oper-button class highlighter */
     background-color:  rgb(107, 107, 99);
 }
 
-/* AC button properties */
-#all-clear{                             
+#all-clear{                             /* AC button properties */
     width: 54.8px;
     background-color: rgb(77, 77, 66);
     color: white;
 }
 
-/* AC button highlighter */
-#all-clear:hover{                       
+#all-clear:hover{                       /* AC button highlighter */
     background-color: rgb(107, 107, 99);    
 }
 
-/* C button properties */
-#clear{                                 
+#clear{                                 /* C button properties */
     background-color: rgb(77, 77, 66);
     color: white;  
 }
 
-/* C button highlighter */
-#clear:hover{                           
+#clear:hover{                           /* C button highlighter */
     background-color: rgb(107, 107, 99);    
 }
 
-/* equals button properties */
-#equals{                                
+#equals{                                /* equals button properties */
     background-color: red;
     color: black;
     border-radius: 0 0 7px 0;
 }
 
-/* equals button highlighter */
-#equals:hover{                          
+#equals:hover{                          /* equals button highlighter */
     background-color: rgb(253, 80, 80);    
 }
 
-/* zed button properties */
-#zed{                                   
+#zed{                                   /* zed button properties */
     width: 54.8px;
     border-radius: 0 0 0 7px;
 }
