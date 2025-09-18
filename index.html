@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Julfri Caguiat's Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -24,136 +24,148 @@
 
 <body class="bg-gray-100 text-gray-800">
 
-<header class="bg-slate-800 text-white py-6 text-center">
-  <h1 class="text-3xl font-semibold">Julfri Caguiat's Portfolio</h1>
-  <p class="text-lg mt-1">Sharing my journey and projects as an aspiring cybersecurity professional</p>
-</header>
+  <header class="bg-slate-800 text-white py-6 text-center">
+    <h1 class="text-3xl font-semibold">Julfri Caguiat's Portfolio</h1>
+    <p class="text-lg mt-1">Sharing my journey and projects as an aspiring cybersecurity professional</p>
+  </header>
 
-<nav class="bg-blue-300 py-3 flex justify-center gap-6 text-white font-medium">
-  <a href="https://julcaguiat.github.io/j-cag.github.io/" target="_blank" class="hover:bg-blue-400 px-4 py-2 rounded">Projects Blog</a>  <a href="#resume" class="hover:bg-blue-400 px-4 py-2 rounded">Resume</a>
-  <a href="#contact" class="hover:bg-blue-400 px-4 py-2 rounded">Contact</a>
-</nav>
+  <nav class="bg-blue-300 py-3 flex justify-center gap-6 text-white font-medium">
+    <a href="https://julcaguiat.github.io/j-cag.github.io/" target="_blank"
+      class="hover:bg-blue-400 px-4 py-2 rounded">Projects Blog</a> <a href="#resume"
+      class="hover:bg-blue-400 px-4 py-2 rounded">Resume</a>
+    <a href="#contact" class="hover:bg-blue-400 px-4 py-2 rounded">Contact</a>
+  </nav>
 
-<main class="max-w-6xl mx-auto px-4 py-8 space-y-10">
+  <main class="max-w-6xl mx-auto px-4 py-8 space-y-10">
 
-  <!-- About Me -->
-  <section class="bg-blue-100 rounded-lg shadow-md p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-    <div class="flex-1">
-      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
-      <p class="text-base leading-relaxed">I’m an aspiring cybersecurity professional with a passion for learning and building projects. My current goal is to break into the cybersecurity field and eventually become a penetration tester. This site showcases some of my work and learning milestones along the way.</p>
-    </div>
-    <div class="w-48 h-48 bg-gray-300 flex items-center justify-center rounded shadow-md">
-      <span class="text-gray-600">Photo Placeholder</span>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="space-y-6">
-
-    <div class="bg-blue-50 rounded-lg p-6 shadow">
-      <h2 class="text-xl font-semibold mb-2">Cybersecurity Projects</h2>
-      <p class="mb-2">Built and documented a Cybersecurity SOC virtual home lab for log analysis, network monitoring, and penetration testing practice..<br>
-      Components: Kali Linux VM (Attack Machine) | Windows 10 VM (Endpoint/Target) | Wazuh on Ubuntu Server (SIEM) | pfSense (Firewall/Router)</p>
-<!--  
-  <ul>
-  <li>
-    <a href="https://julcaguiat.github.io/j-cag.github.io/#virtual-soc-home-lab" target="_blank" class="text-blue-700 underline">
-      Virtual SOC Home Lab Setup Guide
-    </a>
-  </li>
-  <li>
-    <a href="https://julcaguiat.github.io/j-cag.github.io/#upgraded-home-lab" target="_blank" class="text-blue-700 underline">
-      Upgraded Home Lab: pfSense Firewall/Router Setup & Static IP Configuration
-    </a>
-  </li>
-</ul>  
--->
-  <ul class="list-disc pl-6">
-  <li>
-    <a href="https://julcaguiat.github.io/j-cag.github.io/#virtual-soc-home-lab" target="_blank" class="text-blue-700 underline">
-      Virtual SOC Home Lab Setup Guide
-    </a>
-  </li>
-  <li>
-    <a href="https://julcaguiat.github.io/j-cag.github.io/#upgraded-home-lab" target="_blank" class="text-blue-700 underline">
-      Upgraded Home Lab: pfSense Firewall/Router Setup & Static IP Configuration
-    </a>
-  </li>
-</ul>
-
-
-    </div>
-    <div class="bg-blue-50 rounded-lg p-6 shadow">
-      <h2 class="text-xl font-semibold mb-2">Data Communication | Networking</h2>
-      <p class="mb-2">Collaborated in a five-member team to build a rechargeable LoRa-based mesh device enabling secure off-grid SMS and geolocation communication for a CS class.</p>
-      <ul>
-  <li>
-    <a href="https://marydoestech.github.io/DuiKnowIT/" target="_blank" class="text-blue-700 underline">
-      YouTube Presentation: Off-Grid Network using LoRa T-Beam & Meshtastic Open-Source Firmware
-    </a>
-  </li>
-</ul>
-    </div>
-    <div class="bg-blue-50 rounded-lg p-6 shadow">
-      <h2 class="text-xl font-semibold mb-2">Software Development & DBMS</h2>
-      <p class="mb-2">Java software development showcasing program logic, functionality, and user interface design.</p>
-      <ul>
-  <li>
-    <a href="projects/Calc_App/index.html" target="_blank" class="text-blue-700 underline">
-      Interactive Calculator Web App built with HTML, CSS, and JavaScript
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/jul-caguiat/jul-caguiat-pep-project/tree/master/src/main/java" target="_blank" class="text-blue-700 underline">
-      Implemented CRUD operations in Java for a backend RESTful API of a fictitious social media app using Core Java and SQL.
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/jul-caguiat?tab=repositories" target="_blank" class="text-blue-700 underline">
-      Maintained a GitHub repository of small Java code snippets for reference and practice
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/jul-caguiat/DBMS-docs/tree/master/DBMangement_and_Design" target="_blank" class="text-blue-700 underline">
-      Documented the process of data normalization, database design, and implementation
-    </a>
-  </li>
-</ul>
-    </div>
-    <div class="bg-blue-50 rounded-lg p-6 shadow">
-      <h2 class="text-xl font-semibold mb-2">Systems Analysis and Design</h2>
-      <p class="mb-2">Created and documented a system modernization proposal for the Philippine Postal Service through research and feasibility study, with UML workflows, and presented it via YouTube for a CS class.</p>
-      <ul>
-  <li>
-    <a href="https://youtu.be/Z1qlfzzjEVY" target="_blank" class="text-blue-700 underline">
-      YouTube Presentation: Case Study & System Modernization Proposal
-    </a>
-  </li>
-</ul>
-    </div>
-
-  </section>
-
-  <!-- Resume and Contact -->
-  <div class="grid md:grid-cols-2 gap-6">
-    <section id="resume" class="bg-blue-100 p-6 rounded-lg shadow">
-      <h2 class="text-xl font-semibold mb-2">Resume</h2>
-      <p class="mb-2">Download my resume in PDF format:</p>
-      <a href="path/to/your/resume.pdf" target="_blank" class="text-blue-700 underline">Download Resume</a>
+    <!-- About Me -->
+    <section
+      class="bg-blue-100 rounded-lg shadow-md p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      <div class="flex-1">
+        <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+        <p class="text-base leading-relaxed">I’m an aspiring cybersecurity professional with a passion for learning and
+          building projects. My current goal is to break into the cybersecurity field and eventually become a
+          penetration tester. This site showcases some of my work and learning milestones along the way.</p>
+      </div>
+      <div class="w-48 h-48 bg-gray-300 flex items-center justify-center rounded shadow-md">
+        <span class="text-gray-600">Photo Placeholder</span>
+      </div>
     </section>
 
-    <section id="contact" class="bg-blue-100 p-6 rounded-lg shadow">
-      <h2 class="text-xl font-semibold mb-2">Contact</h2>
-      <p>Email: julfri.caguiat@gmail.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-blue-700 underline">linkedin.com/in/yourprofile</a></p>
+    <!-- Projects -->
+    <section id="projects" class="space-y-6">
+
+      <div class="bg-blue-50 rounded-lg p-6 shadow">
+        <h2 class="text-xl font-semibold mb-2">Cybersecurity Projects</h2>
+        <p class="mb-2">Built and documented a Cybersecurity SOC virtual home lab for log analysis, network monitoring,
+          and penetration testing practice..<br>
+          Components: Kali Linux VM (Attack Machine) | Windows 10 VM (Endpoint/Target) | Wazuh on Ubuntu Server (SIEM) |
+          pfSense (Firewall/Router)</p>
+
+        <ul>
+          <li>
+            <a href="https://julcaguiat.github.io/j-cag.github.io/#virtual-soc-home-lab" target="_blank"
+              class="text-blue-700 underline">
+              Virtual SOC Home Lab Setup Guide
+            </a>
+          </li>
+          <li>
+            <a href="https://julcaguiat.github.io/j-cag.github.io/#upgraded-home-lab" target="_blank"
+              class="text-blue-700 underline">
+              Upgraded Home Lab: pfSense Firewall/Router Setup & Static IP Configuration
+            </a>
+          </li>
+        </ul>
+
+
+
+
+      </div>
+      <div class="bg-blue-50 rounded-lg p-6 shadow">
+        <h2 class="text-xl font-semibold mb-2">Data Communication | Networking</h2>
+        <p class="mb-2">Collaborated in a five-member team to build a rechargeable LoRa-based mesh device enabling
+          secure off-grid SMS and geolocation communication for a CS class.</p>
+        <ul>
+          <li>
+            <a href="https://marydoestech.github.io/DuiKnowIT/" target="_blank" class="text-blue-700 underline">
+              YouTube Presentation: Off-Grid Network using LoRa T-Beam & Meshtastic Open-Source Firmware
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-blue-50 rounded-lg p-6 shadow">
+        <h2 class="text-xl font-semibold mb-2">Software Development & DBMS</h2>
+        <p class="mb-2">Java software development showcasing program logic, functionality, and user interface design.
+        </p>
+        <ul>
+          <li>
+            <a href="projects/Calc_App/index.html" target="_blank" class="text-blue-700 underline">
+              Interactive Calculator Web App built with HTML, CSS, and JavaScript
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jul-caguiat/jul-caguiat-pep-project/tree/master/src/main/java" target="_blank"
+              class="text-blue-700 underline">
+              Implemented CRUD operations in Java for a backend RESTful API of a fictitious social media app using Core
+              Java and SQL.
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jul-caguiat?tab=repositories" target="_blank" class="text-blue-700 underline">
+              Maintained a GitHub repository of small Java code snippets for reference and practice
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jul-caguiat/DBMS-docs/tree/master/DBMangement_and_Design" target="_blank"
+              class="text-blue-700 underline">
+              Documented the process of data normalization, database design, and implementation
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-blue-50 rounded-lg p-6 shadow">
+        <h2 class="text-xl font-semibold mb-2">Systems Analysis and Design</h2>
+        <p class="mb-2">Created and documented a system modernization proposal for the Philippine Postal Service through
+          research and feasibility study, with UML workflows, and presented it via YouTube for a CS class.</p>
+        <ul>
+          <li>
+            <a href="https://youtu.be/Z1qlfzzjEVY" target="_blank" class="text-blue-700 underline">
+              YouTube Presentation: Case Study & System Modernization Proposal
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </section>
-  </div>
 
-</main>
+    <!-- Resume and Contact -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <section id="resume" class="bg-blue-100 p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold mb-2">Resume</h2>
+        <p class="mb-2">Download my resume in PDF format:</p>
+        <a href="path/to/your/resume.pdf" target="_blank" class="text-blue-700 underline">Download Resume</a>
+      </section>
 
-<footer class="bg-slate-800 text-white py-4 text-center">
-  <p>&copy; 2025 Julfri Caguiat — All rights reserved.</p>
-</footer>
+      <section id="contact" class="bg-blue-100 p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold mb-2">Contact</h2>
+        <p>
+          Email: <a href="mailto:julfri.caguiat@gmail.com" class="text-blue-700 underline">
+            julfri.caguiat@gmail.com
+          </a>
+        </p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/julfri-caguiat/#:~:text=www.linkedin.com/in/julfri%2Dcaguiat"
+            target="_blank" class="text-blue-700 underline">linkedin.com/in/yourprofile</a></p>
+      </section>
+    </div>
+
+  </main>
+
+  <footer class="bg-slate-800 text-white py-4 text-center">
+    <p>&copy; 2025 Julfri Caguiat — All rights reserved.</p>
+  </footer>
 
 </body>
-</html></html>
+
+</html>
+
+</html>
